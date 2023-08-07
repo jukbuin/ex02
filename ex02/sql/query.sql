@@ -17,3 +17,5 @@ PRIMARY KEY (bno);
 INSERT INTO TBL_BOARD (bno, title, content, writer) VALUES (seq_board.nextval, '테스트 제목', '테스트 내용', 'user00');
 
 SELECT * FROM TBL_BOARD;
+
+select seq_board.nextval from dual;

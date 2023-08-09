@@ -22,7 +22,7 @@ public class RootConfig {
 //		hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
 		hikariConfig.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
 //		hikariConfig.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:xe");
-		hikariConfig.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:xe");
+		hikariConfig.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:XE");
 		hikariConfig.setUsername("c##seungjin");
 		hikariConfig.setPassword("seungjin");
 

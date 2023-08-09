@@ -35,6 +35,7 @@
 
 	<!-- Page Wrapper -->
 	<div id="wrapper">
+	
 
 		<!-- Sidebar -->
 		<ul
@@ -354,3 +355,5 @@
 
 				</nav>
 				<!-- End of Topbar -->
+				
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

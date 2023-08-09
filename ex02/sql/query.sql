@@ -19,3 +19,6 @@ INSERT INTO TBL_BOARD (bno, title, content, writer) VALUES (seq_board.nextval, '
 SELECT * FROM TBL_BOARD;
 
 select seq_board.nextval from dual;
+
+select * from tbl_board
+ORDER BY  bno DESC;
